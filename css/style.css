@@ -95,7 +95,134 @@ p {
 .btn-primary:hover {
 	background-color: rgba(57, 96, 96, 0.4);
 }
-
+/* media queries header */
+@media (min-width: 300px) {
+.text-center_h1 {
+	top: 28%;
+}
+.text-center_h2 {
+	top: 34%;
+}
+.text-center_p {
+	top: 40%;
+}
+.text-center_p1 {
+	top: 44%;
+}
+.btn-primary {
+	top: 48%;
+	left: 35%;
+}
+}
+@media (min-width: 480px) {
+.text-center_h1 {
+	top: 33%;
+}
+.text-center_h2 {
+	top: 40%;
+}
+.text-center_p {
+	top: 47%;
+}
+.text-center_p1 {
+	top: 52%;
+}
+.btn-primary {
+	top: 57%;
+	left: 40%;
+}
+}
+@media (min-width: 660px) {
+.text-center_h1 {
+	top: 40%;
+}
+.text-center_h2 {
+	top: 50%;
+}
+.text-center_p {
+	top: 60%;
+}
+.text-center_p1 {
+	top: 67%;
+}
+.btn-primary {
+	top: 75%;
+	left: 40%;
+}
+}
+@media (min-width: 750px) {
+.text-center_h1 {
+	top: 40%;
+}
+.text-center_h2 {
+	top: 50%;
+}
+.text-center_p {
+	top: 65%;
+}
+.text-center_p1 {
+	top: 75%;
+}
+.btn-primary {
+	top: 85%;
+	left: 43%;
+}
+}
+@media (min-width: 870px) {
+.text-center_h1 {
+	top: 45%;
+}
+.text-center_h2 {
+	top: 57%;
+}
+.text-center_p {
+	top: 73%;
+}
+.text-center_p1 {
+	top: 82%;
+}
+.btn-primary {
+	top: 93%;
+	left: 43%;
+}
+}
+@media (min-width: 950px) {
+.text-center_h1 {
+	top: 45%;
+}
+.text-center_h2 {
+	top: 60%;
+}
+.text-center_p {
+	top: 75%;
+}
+.text-center_p1 {
+	top: 85%;
+}
+.btn-primary {
+	top: 97%;
+	left: 43%;
+}
+}
+@media (min-width: 1200px) {
+.text-center_h1 {
+	top: 55%;
+}
+.text-center_h2 {
+	top: 75%;
+}
+.text-center_p {
+	top: 100%;
+}
+.text-center_p1 {
+	top: 115%;
+}
+.btn-primary {
+	top: 130%;
+	left: 43%;
+}
+}
+/* sekcije */
 .btn-info {
 	background-color: rgb(57, 96, 96);
 	border: none;
@@ -123,7 +250,6 @@ p {
 	width: 300px;
 	height: 200px;
 }
-/* sekcije */
 .container-fluid {
 	background-color: #cccccc;
 }
